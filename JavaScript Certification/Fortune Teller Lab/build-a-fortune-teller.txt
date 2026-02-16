@@ -1,0 +1,39 @@
+** start of script.js **
+
+let [
+fortune1, fortune2, 
+fortune3, fortune4,
+fortune5, randomNumber,
+selectedFortune
+] = [
+"Your cat will look very cuddly today.",
+"The weather will be nice tomorrow.",
+"Be cautious of your new neighbors.",
+"You will find a new hobby soon.",
+"It would be wise to avoid the color red today.",
+Math.floor(Math.random() * (5 - 1+1) + 1)
+];
+
+switch(randomNumber){
+  case 1:
+    selectedFortune = fortune1;
+    break;
+  case 2:
+    selectedFortune = fortune2;
+    break;
+  case 3:
+    selectedFortune = fortune3;
+    break;
+  case 4:
+    selectedFortune = fortune4;
+    break;
+  case 5:
+    selectedFortune = fortune5;
+    break;
+};
+
+console.log(selectedFortune);
+
+
+** end of script.js **
+
