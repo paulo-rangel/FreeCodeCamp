@@ -1,5 +1,3 @@
-** start of script.js **
-
 let [
 fortune1, fortune2, 
 fortune3, fortune4,
@@ -33,7 +31,4 @@ switch(randomNumber){
 };
 
 console.log(selectedFortune);
-
-
-** end of script.js **
 
